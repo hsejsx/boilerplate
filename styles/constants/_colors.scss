@@ -1,0 +1,21 @@
+$color-black: #000;
+$color-white: #fff;
+
+$colors: (
+  light: (
+    text-color-dark: $color-black,
+    text-color-default: $color-black,
+    text-color-light: $color-black,
+    background-color-dark: #06f,
+    background-color-default: #06f,
+    background-color-light: #06f,
+  ),
+  dark: (
+    text-color-dark: $color-white,
+    text-color-default: $color-white,
+    text-color-light: $color-white,
+    background-color-dark: #06f,
+    background-color-default: #06f,
+    background-color-light: #06f,
+  ),
+);
